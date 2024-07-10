@@ -1,0 +1,21 @@
+{
+    "name": "rayma/system",
+    "description": "Simple Login Application",
+    "type": "n",
+    "license": "n",
+    "autoload": {
+        "psr-4": {
+            "Rayma\\System\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hazekiah"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^2.1",
+        "chillerlan/php-qrcode": "^5.0",
+        "firebase/php-jwt": "^6.10"
+    }
+}
